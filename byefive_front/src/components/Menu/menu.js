@@ -86,16 +86,16 @@ export default function Menu() {
           onChange={handleChange}
           aria-label="nav tabs example"
         >
-          <LinkTab label="Produtos" href="/drafts" {...a11yProps(0)} />
-          <LinkTab label="Carrinho" href="/trash" {...a11yProps(1)} />
+          <LinkTab label="Cadastros" href="/drafts" {...a11yProps(0)} />
+          <LinkTab label="Gerenciar usuários" href="/trash" {...a11yProps(1)} />
           <LinkTab label="Configurações" href="/spam" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <HomePage>Home Page</HomePage>
+        <GetAllUsers/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <GetAllUsers/>
+        <HomePage>Home Page</HomePage>        
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Logout/>
