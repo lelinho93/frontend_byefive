@@ -70,14 +70,13 @@ export default function SignUp() {
 
   const onSubmitForm = (event) => {    
       event.preventDefault() 
-      axios.post("http://localhost:5000/signup", form)
+      axios.post("http://localhost:5000/api/signup", form)
     .then(response => {
-      window.localStorage.setItem("token", response.data.token)
-      history.push("/insert-image")  
+      window.localStorage.setItem("token", response.data)
+      history.push("/home")  
     })
     .catch(error => {
-      const { data } = error.response
-      alert(data.message)
+      alert(error.message)
     })     
   }  
 
