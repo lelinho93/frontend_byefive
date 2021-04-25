@@ -7,6 +7,9 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { useHistory } from 'react-router';
+import HomePage from '../../pages/HomePage'
+import Logout from '../Logout/Logout';
+import GetAllUsers from '../../pages/GetAllUsers';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -66,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function NavTabs() {
+export default function Menu() {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -83,19 +86,19 @@ export default function NavTabs() {
           onChange={handleChange}
           aria-label="nav tabs example"
         >
-          <LinkTab label="Feed" href="/drafts" {...a11yProps(0)} />
-          <LinkTab label="Postar" href="/trash" {...a11yProps(1)} />
-          <LinkTab label="Page Three" href="/spam" {...a11yProps(2)} />
+          <LinkTab label="Produtos" href="/drafts" {...a11yProps(0)} />
+          <LinkTab label="Carrinho" href="/trash" {...a11yProps(1)} />
+          <LinkTab label="Configurações" href="/spam" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Home
+        <HomePage>Home Page</HomePage>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Cadastrar
+        <GetAllUsers/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Void Page
+        <Logout/>
       </TabPanel>
     </div>
   );
