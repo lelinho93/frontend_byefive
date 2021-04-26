@@ -92,7 +92,7 @@ export default function SignUp() {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Sign up
+          Cadastre-se
         </Typography>
         <form className={classes.form} onSubmit={onSubmitForm} >
           <Grid container spacing={2}>

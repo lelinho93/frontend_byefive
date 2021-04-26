@@ -7,9 +7,10 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { useHistory } from 'react-router';
-import HomePage from '../../pages/HomePage'
 import Logout from '../Logout/Logout';
-import GetAllUsers from '../../pages/GetAllUsers';
+import GetAllUsers from '../../pages/GetAllUsers/index';
+import DeleteUser from '../../pages/DeleteUser.js';
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -95,7 +96,7 @@ export default function Menu() {
         <GetAllUsers/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <HomePage>Home Page</HomePage>        
+        <DeleteUser/> 
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Logout/>
