@@ -25,3 +25,10 @@ Dentro do sistema há três abas, a primeira permite visualizar todos os usuári
 * Clonar esse repositório em sua máquina local atráves do seu terminal git
 * Com o terminal na pasta raiz do projeto (byefive_front) é só rodar o comando <npm run start> que o node irá rodar a aplicação e abrir uma aba em seu navegador para que possa visualizar e usar a plataforma.
 
+# Imagens do projeto:
+
+![Firefox_Screenshot_2021-04-26T15-11-52 214Z](https://user-images.githubusercontent.com/71237016/116113402-da1f8e00-a68e-11eb-9db3-ae5b63b4d3b0.png)
+![Firefox_Screenshot_2021-04-26T15-12-03 023Z](https://user-images.githubusercontent.com/71237016/116113411-dc81e800-a68e-11eb-980f-1715d3aabfd4.png)
+![Firefox_Screenshot_2021-04-26T15-13-25 962Z](https://user-images.githubusercontent.com/71237016/116113415-ddb31500-a68e-11eb-889b-a7b47019afe9.png)
+![Firefox_Screenshot_2021-04-26T15-13-36 648Z](https://user-images.githubusercontent.com/71237016/116113434-e1469c00-a68e-11eb-8f48-2f76f428c117.png)
+![Firefox_Screenshot_2021-04-26T15-13-52 630Z](https://user-images.githubusercontent.com/71237016/116113447-e3105f80-a68e-11eb-8f97-9e265bc12c27.png)
