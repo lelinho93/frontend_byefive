@@ -23,7 +23,7 @@ Dentro do sistema há três abas, a primeira permite visualizar todos os usuári
 
 * Para rodar este projeto em sua máquina local é necessário ter a última versão do Node.js instalado (https://nodejs.org/en/)
 * Clonar esse repositório em sua máquina local atráves do seu terminal git
-* Com o terminal na pasta raiz do projeto (byefive_front) é só rodar o comando <npm run start> que o node irá rodar a aplicação e abrir uma aba em seu navegador para que possa visualizar e usar a plataforma.
+* Com o terminal na pasta raiz do projeto (byefive_front) é só rodar o comando <npm install> para installar as dependencias do node.js. Assim que concluir rode o comando <npm run start> que o node irá rodar a aplicação e abrir uma aba em seu navegador para que possa visualizar e usar a plataforma.
 
 # Imagens do projeto:
 
