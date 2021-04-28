@@ -1,6 +1,6 @@
 # Projeto Seletivo Byefive - Frontend
 
-Acesse o deploy no surge: uneven-stamp.surge.sh/
+Acesse o deploy no surge: http://portal-byefive.surge.sh/
 
 * Objetivo:
 
