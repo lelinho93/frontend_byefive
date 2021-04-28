@@ -24,7 +24,7 @@ export default function GetAllUsers() {
 const [users, setUsers] = useState([])
     
     useEffect(() => {
-    axios.get('http://localhost:5000/api/user/all')
+    axios.get('https://backend-byefive.herokuapp.com/api/user/all')
     .then(response => {
         setUsers(response.data)        
     })
