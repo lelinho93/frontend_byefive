@@ -67,7 +67,6 @@ export default function SignUp() {
       onChange(value, name)
   }
 
-
   const onSubmitForm = (event) => {    
       event.preventDefault() 
       axios.post("https://backend-byefive.herokuapp.com/api/signup", form)
