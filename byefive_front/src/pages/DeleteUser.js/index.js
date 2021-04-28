@@ -45,7 +45,7 @@ export default function DeleteUser() {
 const onSubmitForm = (event) => {
     event.preventDefault()
         
-    axios.delete("http://localhost:5000/api/user/delete", form)
+    axios.delete("https://backend-byefive.herokuapp.com/api/user/delete", form)
 
     .then(response => { 
         console.log(response.data)     

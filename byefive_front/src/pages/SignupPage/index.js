@@ -70,7 +70,7 @@ export default function SignUp() {
 
   const onSubmitForm = (event) => {    
       event.preventDefault() 
-      axios.post("http://localhost:5000/api/signup", form)
+      axios.post("https://backend-byefive.herokuapp.com/api/signup", form)
     .then(response => {
       window.localStorage.setItem("token", response.data)
       history.push("/home")  
